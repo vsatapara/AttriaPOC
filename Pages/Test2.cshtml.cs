@@ -7,14 +7,9 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace AttriaPOC
 {
-    public class Test1Model : PageModel
+    public class Test2Model : PageModel
     {
         public void OnGet()
-        {
-
-        }
-
-        public void test()
         {
 
         }
