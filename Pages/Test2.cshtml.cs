@@ -18,5 +18,10 @@ namespace AttriaPOC
         { 
         
         }
+
+        public void NewProject()
+        {
+
+        }
     }
 }
