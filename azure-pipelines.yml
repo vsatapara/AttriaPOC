@@ -35,4 +35,3 @@ steps:
 
 - task: PublishBuildArtifacts@1
 
-- task: DownloadBuildArtifacts@0
