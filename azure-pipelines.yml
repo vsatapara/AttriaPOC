@@ -1,4 +1,16 @@
 # ASP.NET Core (.NET Framework)
+- task: SqlAzureDacpacDeployment@1
+  inputs:
+    azureSubscription: 'Microsoft Partner Network (93d79f38-7119-4367-b17e-4a8b7195561d)'
+    AuthenticationType: 'server'
+    ServerName: 'artoolsqlserver.database.windows.net'
+    DatabaseName: 'GlennisDemoDB'
+    SqlUsername: 'msdba'
+    SqlPassword: 'Cos44108'
+    deployType: 'DacpacTask'
+    DeploymentAction: 'Publish'
+    DacpacFile: 'GlennisDemoDACPAC'
+    IpDetectionMethod: 'AutoDetect'
 # Build and test ASP.NET Core projects targeting the full .NET Framework.
 # Add steps that publish symbols, save build artifacts, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
