@@ -46,5 +46,5 @@ steps:
     SqlPassword: 'Cos44108'
     deployType: 'DacpacTask'
     DeploymentAction: 'Publish'
-    DacpacFile: 'GlennisDemoDACPAC'
+    DacpacFile: 'GlennisDemoDACPAC.dacpac'
     IpDetectionMethod: 'AutoDetect'
