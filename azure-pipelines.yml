@@ -45,5 +45,5 @@ steps:
     SqlPassword: 'dba@1234'
     deployType: 'DacpacTask'
     DeploymentAction: 'Publish'
-    DacpacFile: 'Database1.dacpac'
+    DacpacFile: 'GlennisDemoDatabase.dacpac'
     IpDetectionMethod: 'AutoDetect'
