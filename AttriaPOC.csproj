@@ -5,7 +5,29 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp3.0\appsettings.Development.json" />
+    <Content Include="bin\Debug\netcoreapp3.0\appsettings.json" />
+    <Content Include="bin\Debug\netcoreapp3.0\AttriaPOC.deps.json" />
+    <Content Include="bin\Debug\netcoreapp3.0\AttriaPOC.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\netcoreapp3.0\AttriaPOC.runtimeconfig.json" />
+    <Content Include="bin\Debug\netcoreapp3.0\Properties\launchSettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp3.0\AttriaPOC.dll" />
+    <None Include="bin\Debug\netcoreapp3.0\AttriaPOC.exe" />
+    <None Include="bin\Debug\netcoreapp3.0\AttriaPOC.pdb" />
+    <None Include="bin\Debug\netcoreapp3.0\AttriaPOC.Views.dll" />
+    <None Include="bin\Debug\netcoreapp3.0\AttriaPOC.Views.pdb" />
+    <None Include="bin\Debug\netcoreapp3.0\dotnet-aspnet-codegenerator-design.exe" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Release\netcoreapp3.0\" />
   </ItemGroup>
 
 
